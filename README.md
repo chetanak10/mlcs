@@ -33,7 +33,7 @@ Binary classification of URLs/websites into **phishing** or **legitimate** with 
 - Results & experiment lineage in **EVAL_LOG.md**
 
 ## 7) Versioning & Refinement Workflow (Main)
-We use Git for code & docs, and maintain structured logs:
+Used Git for code & docs, and maintain structured logs:
 - **DATASET_CARD.md** — every dataset drop (schema, size, class balance, collection date, known bias)
 - **MODEL_CARD.md** — each model version (training data, features, metrics, fairness checks, latency)
 - **EVAL_LOG.md** — experiment runs with seeds/configs; add confusion matrices & PR curves
